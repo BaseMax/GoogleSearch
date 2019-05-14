@@ -11,7 +11,8 @@ file = codecs.open("result.txt", "w", "utf-8")
 for item in results:
 
 	# It will not works on windows OS : utf8 problem...
-	# https://stackoverflow.com/questions/934160/write-to-utf-8-file-in-python
+	# https://stackoverflow.com/questions/16346914/python-3-2-unicodeencodeerror-charmap-codec-cant-encode-character-u2013-i
+	# https://github.com/llSourcell/twitter_sentiment_challenge/issues/1
 	# print(item)
 	# print(item[0])
 	# print(item[1])

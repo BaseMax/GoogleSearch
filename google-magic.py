@@ -6,6 +6,7 @@ import pprint
 import codecs
 
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+# pip install magic_google
 from magic_google import MagicGoogle
 
 mg = MagicGoogle()

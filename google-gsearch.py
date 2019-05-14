@@ -1,8 +1,9 @@
 from gsearch.googlesearch import search
 
-results = search('Github')  
+# results = search('Github')  
+results = search('Github', num_results=100)
+
 # print(results)
 
 for item in results:
-	print(item[0])
-	print(item[1])
+	print(item)
